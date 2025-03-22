@@ -4,7 +4,7 @@ import styles from "./RotatePictures.module.css";
 
 const RotatePictures = () => {
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center h-[300px]">
       <div className={styles.wrap}>
         <ul className={styles.slideshow}>
           <Image

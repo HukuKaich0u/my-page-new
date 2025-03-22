@@ -9,20 +9,20 @@ const MyCareer = () => {
           >
             My Career
           </h1>
-          <p className="my-4">
+          <p className="my-3">
             現状書けることが少なすぎるので、ここから頑張ります
           </p>
           <div className="flex m-1">
             <p className="mr-1">⚫︎</p>
-            <p>2020 - 2023 東京都立日比谷高等学校 / 硬式野球部</p>
+            <p>2020/4 - 2023/3 東京都立日比谷高等学校 / 硬式野球部</p>
           </div>
           <div className="flex m-1">
             <p className="mr-1">⚫︎</p>
-            <p>高校卒業後、駿台お茶の水3号館にて1年間の浪人</p>
+            <p>2023/4 -2024/3 駿台御茶ノ水3号館にて1年間浪人</p>
           </div>
           <div className="flex m-1">
             <p className="mr-1">⚫︎</p>
-            <p>2024 〜 東洋大学情報連携学部情報連携学科</p>
+            <p>2024/4 〜 東洋大学情報連携学部情報連携学科</p>
           </div>
         </div>
       </div>
