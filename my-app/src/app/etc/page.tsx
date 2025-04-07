@@ -1,10 +1,5 @@
 const Etc = () => {
-  return (
-
-    <div>
-      <p>this is etc</p>
-    </div>
-  );
+  return <div className="flex flex-col items-center"></div>;
 };
 
 export default Etc;

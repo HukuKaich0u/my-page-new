@@ -15,7 +15,9 @@ const HobbiesAndInterests = () => {
           <p className="mr-1">⚫︎</p>
           <p className="font-bold">Outdoor</p>
           <p className="mx-2">-</p>
-          <p className="text-wrap">目的なくただ歩いたり散歩が好きです。</p>
+          <p className="text-wrap">
+            目的なくただ歩いたり散歩が好きです。友人とスノーボードをしに行くのも好きです。
+          </p>
         </div>
         <div className="flex m-1">
           <p className="mr-1">⚫︎</p>

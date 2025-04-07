@@ -1,13 +1,13 @@
 import Icon from "@/components/Icon";
 import Links from "@/components/Links";
-import RotatePictures from "@/components/RotatePictures";
+import HomeRotation from "@/components/HomeRotation";
 
 const Home = () => {
   return (
     <div>
       <Icon />
       <Links />
-      <RotatePictures />
+      <HomeRotation />
     </div>
   );
 };

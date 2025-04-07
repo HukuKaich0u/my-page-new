@@ -1,0 +1,19 @@
+.menu {
+    background: #333;
+    color: white;
+    width: 200px;
+    position: absolute;
+    top: 50px;  /* ← ボタンの下に配置 */
+    left: 0;  /* ← ボタンと揃える */
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.3s ease-out;
+    overflow: hidden;
+}
+
+.menu.open {
+    transform: scaleY(1);
+}

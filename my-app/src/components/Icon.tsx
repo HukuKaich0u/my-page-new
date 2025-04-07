@@ -1,5 +1,5 @@
 import Image from "next/image";
-import facePicture from "../..//public/IMG_3496.jpeg";
+import facePicture from "../..//public/icon.jpg";
 import mapPin from "../../public/location.png";
 
 const Icon = () => {

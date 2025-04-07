@@ -1,42 +1,54 @@
 import Image from "next/image";
-import UrbanPict from "../../public/urban-vintage-78A265wPiO4-unsplash.jpg";
 import styles from "./RotatePictures.module.css";
-
-const RotatePictures = () => {
+import Training from "../../public/training.jpg";
+import Ski1 from "../../public/ski1.jpeg";
+import Ski2 from "../../public/ski2.jpg";
+import Coding from "../../public/coding.jpg";
+import SportsDay from "../../public/sportsday.jpg";
+import Dinner from "../../public/dinner.jpg";
+// https://pengi-n.co.jp/column/design/horizontal-slideshow/#%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8B
+const HomeRotation = () => {
   return (
     <div className="flex items-center justify-center h-[300px]">
       <div className={styles.wrap}>
         <ul className={styles.slideshow}>
           <Image
-            src={UrbanPict}
+            src={Training}
             alt="fromUnsplash"
             width={200}
             height={200}
             className={styles.content}
           />
           <Image
-            src={UrbanPict}
+            src={Ski1}
             alt="fromUnsplash"
             width={200}
             height={200}
             className={styles.content}
           />
           <Image
-            src={UrbanPict}
+            src={Ski2}
             alt="fromUnsplash"
             width={200}
             height={200}
             className={styles.content}
           />
           <Image
-            src={UrbanPict}
+            src={Coding}
             alt="fromUnsplash"
             width={200}
             height={200}
             className={styles.content}
           />
           <Image
-            src={UrbanPict}
+            src={SportsDay}
+            alt="fromUnsplash"
+            width={200}
+            height={200}
+            className={styles.content}
+          />
+          <Image
+            src={Dinner}
             alt="fromUnsplash"
             width={200}
             height={200}
@@ -48,4 +60,4 @@ const RotatePictures = () => {
   );
 };
 
-export default RotatePictures;
+export default HomeRotation;
