@@ -1,6 +1,7 @@
 import Image from "next/image";
 
-const Skill = ({ name, children }) => {
+const Skill = (props) => {
+  const { name, children } = props;
   return (
     <div className="relative group inline-block">
       <Image width={40} height={40} src={name} alt={name} className="m-2" />
