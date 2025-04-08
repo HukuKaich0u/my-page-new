@@ -1,13 +1,12 @@
 import Image from "next/image";
 import styles from "./RotatePictures.module.css";
-import Graduation from "../../public/graduation.jpg";
-import Diploma from "../../public/diploma.jpg";
-import Celebration from "../../public/celebration.jpg";
-import FoieGras from "../../public/foiegras.jpg";
-import Duck from "../../public/duck.jpg";
-import Appetizer from "../../public/appetizer.jpg";
-import Tagliatelle from "../../public/tagliatelle.jpg";
-import Drink from "../../public/drink.jpg";
+import Graduation from "../../public/profIcons/graduation.jpg";
+import Diploma from "../../public/profIcons/diploma.jpg";
+import FoieGras from "../../public/profIcons/foiegras.jpg";
+import Duck from "../../public/profIcons/duck.jpg";
+import Appetizer from "../../public/profIcons/appetizer.jpg";
+import Tagliatelle from "../../public/profIcons/tagliatelle.jpg";
+import Drink from "../../public/profIcons/drink.jpg";
 
 const AboutRotation = () => {
   return (

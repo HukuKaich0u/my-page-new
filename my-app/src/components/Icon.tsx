@@ -1,12 +1,12 @@
 import Image from "next/image";
-import facePicture from "../..//public/icon.jpg";
-import mapPin from "../../public/location.png";
+import FacePicture from "../..//public/profIcons/icon.jpg";
+import Location from "../../public/profIcons/location.png";
 
 const Icon = () => {
   return (
     <div className="flex flex-col items-center p-3">
       <Image
-        src={facePicture}
+        src={FacePicture}
         alt="自分の顔写真"
         width={180}
         height={180}
@@ -19,7 +19,7 @@ const Icon = () => {
       </p>{" "}
       <div className="flex items-center text-[15px] opacity-70 font-bold">
         <Image
-          src={mapPin}
+          src={Location}
           alt="位置情報のアイコン"
           width={25}
           height={25}
