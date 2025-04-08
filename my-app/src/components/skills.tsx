@@ -1,4 +1,4 @@
-import JavaScript from "../../public/skillsicons/JavaScript.svg";
+import JavaScript from "../../public/skillsIcons/JavaScript.svg";
 import TypeScript from "../../public/skillsIcons/TypeScript.svg";
 import Python from "../../public/skillsIcons/Python-Dark.svg";
 import Go from "../../public/skillsIcons/GoLang.svg";
