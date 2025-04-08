@@ -16,18 +16,36 @@ const Skills = () => {
       <div className="flex flex-col items-center bg-gray-900 p-3 rounded-2xl w-[550px] ">
         <div className="m-2">Programming Language</div>
         <div className="flex">
-          <Skill name={JavaScript}>JavaScript</Skill>
-          <Skill name={TypeScript}>TypeScript</Skill>
-          <Skill name={Python}>Python</Skill>
-          <Skill name={Go}>Go</Skill>
+          <Skill name={JavaScript} description="JavaScript">
+            JavaScript
+          </Skill>
+          <Skill name={TypeScript} description="TypeScript">
+            TypeScript
+          </Skill>
+          <Skill name={Python} description="Python">
+            Python
+          </Skill>
+          <Skill name={Go} description="Go">
+            Go
+          </Skill>
         </div>
         <div className="m-2">Front-End</div>
         <div className="flex">
-          <Skill name={HTML}>HTML</Skill>
-          <Skill name={CSS}>CSS</Skill>
-          <Skill name={TailwindCSS}>TailwindCSS</Skill>
-          <Skill name={React}>React</Skill>
-          <Skill name={Next}>Next</Skill>
+          <Skill name={HTML} description="HTML">
+            HTML
+          </Skill>
+          <Skill name={CSS} description="CSS">
+            CSS
+          </Skill>
+          <Skill name={TailwindCSS} description="TailwindCSS">
+            TailwindCSS
+          </Skill>
+          <Skill name={React} description="React">
+            React
+          </Skill>
+          <Skill name={Next} description="Next">
+            Next
+          </Skill>
         </div>
       </div>
     </div>

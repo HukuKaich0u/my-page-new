@@ -1,10 +1,23 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
+import { ReactNode } from "react";
 
-const Skill = (props) => {
-  const { name, children } = props;
+type SkillProps = {
+  name: StaticImageData;
+  description: string;
+  children: ReactNode;
+};
+
+const Skill = (props: SkillProps) => {
+  const { name, description, children } = props;
   return (
     <div className="relative group inline-block">
-      <Image width={40} height={40} src={name} alt={name} className="m-2" />
+      <Image
+        width={40}
+        height={40}
+        src={name}
+        alt={description}
+        className="m-2"
+      />
       <div
         className="absolute top-full mb2 left-1/2 transform -translate-x-1/2 
                   bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 
