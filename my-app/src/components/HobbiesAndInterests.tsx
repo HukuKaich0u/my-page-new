@@ -1,6 +1,6 @@
 const HobbiesAndInterests = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center p-2 ">
       <div className="text-left sm:w-[500px]">
         <h1
           className="text-2xl bg-gray-700 w-[280px] text-center p-1
