@@ -13,7 +13,10 @@ const Links = () => {
         className="flex justify-around items-center w-[400px] bg-blue-200
       drop-shadow-[0_5px_5px_rgba(0,0,0,0.50)] rounded-[15px] py-2 "
       >
-        <Link href="https://www.linkedin.com/in/%E5%B9%B8%E6%A8%B9-%E9%9D%92%E6%9F%B3-b3b945349/">
+        <Link
+          href="https://www.linkedin.com/in/%E5%B9%B8%E6%A8%B9-%E9%9D%92%E6%9F%B3-b3b945349/"
+          target="_blank"
+        >
           <Image
             src={LinkedIn}
             alt="Zennのアイコン"
@@ -22,7 +25,7 @@ const Links = () => {
             className="hover:scale-115 object-cover"
           />
         </Link>
-        <Link href="https://zenn.dev/kimuchi">
+        <Link href="https://zenn.dev/kimuchi" target="_blank">
           <Image
             src={Zenn}
             alt="Zennのアイコン"
