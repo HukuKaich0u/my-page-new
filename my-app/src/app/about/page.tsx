@@ -3,7 +3,7 @@ import MyCareer from "@/components/MyCareer";
 import AboutRotation from "@/components/AboutRotation";
 const About = () => {
   return (
-    <div>
+    <div className="p-2">
       <HobbiesAndInterests />
       <MyCareer />
       <AboutRotation />

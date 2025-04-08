@@ -13,7 +13,7 @@ const SkillIcons = () => {
   return (
     <div className="flex flex-col items-center">
       <div className="font-black text-[20px] ">Skill Set</div>
-      <div className="flex flex-col items-center bg-gray-900 p-3 rounded-2xl w-[550px] ">
+      <div className="flex flex-col items-center bg-gray-900 p-3 rounded-2xl sm:w-[550px] ">
         <div className="m-2">Programming Language</div>
         <div className="flex">
           <SkillIcon name={JavaScript} description="JavaScript">
