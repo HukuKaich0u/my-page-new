@@ -10,7 +10,7 @@ const Icon = () => {
         alt="自分の顔写真"
         width={180}
         height={180}
-        className="rounded-full object-cover drop-shadow-[0_5px_5px_rgba(0, 0, 0, 0.25)]"
+        className="rounded-full object-cover drop-shadow-[0_5px_5px_rgba(0, 0, 0, 0.50)]"
       />
       <p className="font-bold text-2xl text-white mt-2 p-1">Koki Aoyagi</p>
       <p className="font-bold text-xl opacity-70 p-1">@kokiaoyagi</p>
