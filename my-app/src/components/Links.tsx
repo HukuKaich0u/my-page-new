@@ -22,7 +22,7 @@ const Links = () => {
             alt="Zennのアイコン"
             width={43}
             height={43}
-            className="hover:scale-115 object-cover"
+            className="hover:scale-115 object-cover m-1.5"
           />
         </Link>
         <Link href="https://zenn.dev/kimuchi" target="_blank">
@@ -31,7 +31,7 @@ const Links = () => {
             alt="Zennのアイコン"
             width={43}
             height={43}
-            className="hover:scale-115 object-cover"
+            className="hover:scale-115 object-cover m-1.5"
           />
         </Link>
         <Link href="https://github.com/HukuKaich0u" target="_blank">
@@ -40,7 +40,7 @@ const Links = () => {
             alt="Zennのアイコン"
             width={43}
             height={43}
-            className="hover:scale-115 object-cover"
+            className="hover:scale-115 object-cover m-1.5"
           />
         </Link>
         <Link href="https://discord.gg/dEH6YPDK" target="_blank">
@@ -49,7 +49,7 @@ const Links = () => {
             alt="GitHubのアイコン"
             width={43}
             height={43}
-            className="hover:scale-115 object-cover"
+            className="hover:scale-115 object-cover m-1.5"
           />
         </Link>
         <Link href="https://x.com/HukuKaich0u" target="_blank">
@@ -58,7 +58,7 @@ const Links = () => {
             alt="Xのアイコン"
             width={50}
             height={50}
-            className="hover:scale-115 object-cover"
+            className="hover:scale-115 object-cover m-1.5"
           />
         </Link>
       </div>
