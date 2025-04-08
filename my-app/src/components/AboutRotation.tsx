@@ -15,49 +15,49 @@ const AboutRotation = () => {
         <ul className={styles.slideshow}>
           <Image
             src={Graduation}
-            alt="fromUnsplash"
+            alt="Graduation from my highschool"
             width={200}
             height={200}
             className={styles.content}
           />
           <Image
             src={Diploma}
-            alt="fromUnsplash"
+            alt="Diploma of my highschool"
             width={200}
             height={200}
             className={styles.content}
           />
           <Image
             src={FoieGras}
-            alt="fromUnsplash"
+            alt="Foie Gras at lacoccinella"
             width={200}
             height={150}
             className={styles.content}
           />
           <Image
             src={Duck}
-            alt="fromUnsplash"
+            alt="We went to the wrong restaurant with Takashi lol"
             width={200}
             height={150}
             className={styles.content}
           />
           <Image
             src={Appetizer}
-            alt="fromUnsplash"
+            alt="Appetizer at lacoccinella"
             width={200}
             height={150}
             className={styles.content}
           />
           <Image
             src={Tagliatelle}
-            alt="fromUnsplash"
+            alt="Tagliatelle at lacoccinella"
             width={200}
             height={150}
             className={styles.content}
           />
           <Image
             src={Drink}
-            alt="fromUnsplash"
+            alt="Drink at las"
             width={200}
             height={150}
             className={styles.content}
