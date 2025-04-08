@@ -2,7 +2,7 @@ const MyCareer = () => {
   return (
     <div className="mt-3">
       <div className="flex flex-col items-center">
-        <div className="text-left w-[500px]">
+        <div className="text-left sm:w-[500px]">
           <h1
             className="text-2xl bg-gray-700 w-[150px] text-center p-1
             rounded font-bold"
