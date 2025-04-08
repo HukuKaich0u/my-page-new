@@ -4,7 +4,7 @@ import HomeRotation from "@/components/HomeRotation";
 
 const Home = () => {
   return (
-    <div>
+    <div className="p-3]">
       <Icon />
       <Links />
       <HomeRotation />

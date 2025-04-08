@@ -10,7 +10,7 @@ const Links = () => {
   return (
     <div className="flex justify-center">
       <div
-        className="flex justify-around items-center w-[400px] bg-blue-200
+        className="flex justify-around items-center sm:w-[400px] bg-blue-200
       drop-shadow-[0_5px_5px_rgba(0,0,0,0.50)] rounded-[15px] py-2 "
       >
         <Link
