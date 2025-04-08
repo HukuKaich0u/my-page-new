@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Koki Aoyagi",
   description: "Koki Aoyagi - my page -",
   icons: "/favicon.ico",
+  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({
