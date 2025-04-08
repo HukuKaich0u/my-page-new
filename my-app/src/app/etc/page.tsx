@@ -1,9 +1,9 @@
-import Skills from "@/components/Skills";
+import SkillIcons from "@/components/SkillIcons";
 
 const Etc = () => {
   return (
     <div className="flex flex-col items-center">
-      <Skills />
+      <SkillIcons />
     </div>
   );
 };

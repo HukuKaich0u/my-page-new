@@ -7,7 +7,7 @@ type SkillProps = {
   children: ReactNode;
 };
 
-const Skill = (props: SkillProps) => {
+const SkillIcon = (props: SkillProps) => {
   const { name, description, children } = props;
   return (
     <div className="relative group inline-block">
@@ -29,4 +29,4 @@ const Skill = (props: SkillProps) => {
   );
 };
 
-export default Skill;
+export default SkillIcon;
