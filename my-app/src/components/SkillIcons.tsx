@@ -7,13 +7,19 @@ import CSS from "../../public/skillsIcons/CSS.svg";
 import TailwindCSS from "../../public/skillsIcons/TailwindCSS-Dark.svg";
 import React from "../../public/skillsIcons/React-Dark.svg";
 import Next from "../../public/skillsIcons/NextJS-Dark.svg";
+import Express from "../../public/skillsIcons/ExpressJS-Dark.svg";
+import Django from "../../public/skillsIcons/Django.svg";
+import Flask from "../../public/skillsIcons/Flask-Dark.svg";
+import FastAPI from "../../public/skillsIcons/FastAPI.svg";
+import Echo from "../../public/skillsIcons/Echo.png";
+import Gin from "../../public/skillsIcons/Gin.png";
 import SkillIcon from "./SkillIcon";
 
 const SkillIcons = () => {
   return (
-    <div className="flex flex-col items-center">
-      <div className="font-black text-[20px] ">Skill Set</div>
-      <div className="flex flex-col items-center bg-gray-900 p-3 rounded-2xl sm:w-[550px] ">
+    <div className="flex flex-col items-center text-white">
+      <div className="font-black text-[20px] m-2 ">Skill Set</div>
+      <div className="flex flex-col items-center bg-gray-950 p-3 rounded-2xl sm:w-[550px] ">
         <div className="m-2">Programming Language</div>
         <div className="flex">
           <SkillIcon name={JavaScript} description="JavaScript">
@@ -45,6 +51,27 @@ const SkillIcons = () => {
           </SkillIcon>
           <SkillIcon name={Next} description="Next">
             Next
+          </SkillIcon>
+        </div>
+        <div className="m-2">Back-End</div>
+        <div>
+          <SkillIcon name={Express} description="Express">
+            Express
+          </SkillIcon>
+          <SkillIcon name={Django} description="Django">
+            Django
+          </SkillIcon>
+          <SkillIcon name={Flask} description="Flask">
+            Flask
+          </SkillIcon>
+          <SkillIcon name={FastAPI} description="FastAPI">
+            FastAPI
+          </SkillIcon>
+          <SkillIcon name={Echo} description="Echo">
+            Echo
+          </SkillIcon>
+          <SkillIcon name={Gin} description="Gin">
+            Gin
           </SkillIcon>
         </div>
       </div>
