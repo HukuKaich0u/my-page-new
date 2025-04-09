@@ -21,7 +21,7 @@ const SkillIcon = (props: SkillProps) => {
       <div
         className="absolute top-full mb-2 left-1/2 transform -translate-x-1/2 
                   bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 
-                  group-hover:opacity-100 transition pointer-events-none"
+                  group-hover:opacity-100 transition pointer-events-none group-active:opacity-100"
       >
         {children}
       </div>
