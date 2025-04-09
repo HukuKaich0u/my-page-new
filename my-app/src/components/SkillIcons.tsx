@@ -54,7 +54,7 @@ const SkillIcons = () => {
           </SkillIcon>
         </div>
         <div className="m-2">Back-End</div>
-        <div>
+        <div className="flex">
           <SkillIcon name={Express} description="Express">
             Express
           </SkillIcon>
@@ -74,6 +74,8 @@ const SkillIcons = () => {
             Gin
           </SkillIcon>
         </div>
+        <div className="m-2">Database</div>
+        <div className="m-2">Others</div>
       </div>
     </div>
   );
