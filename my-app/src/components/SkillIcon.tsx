@@ -16,7 +16,7 @@ const SkillIcon = (props: SkillProps) => {
         height={40}
         src={name}
         alt={description}
-        className="m-2"
+        className="m-2 rounded-[5px]"
       />
       <div
         className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 

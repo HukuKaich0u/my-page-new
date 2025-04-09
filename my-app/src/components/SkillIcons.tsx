@@ -11,8 +11,17 @@ import Express from "../../public/skillsIcons/ExpressJS-Dark.svg";
 import Django from "../../public/skillsIcons/Django.svg";
 import Flask from "../../public/skillsIcons/Flask-Dark.svg";
 import FastAPI from "../../public/skillsIcons/FastAPI.svg";
-import Echo from "../../public/skillsIcons/Echo.png";
+import PostgreSQL from "../../public/skillsIcons/PostgreSQL-Dark.svg";
+import MySQL from "../../public/skillsIcons/MySQL-Dark.svg";
+import Echo from "../../public/skillsIcons/Echo-New.png";
 import Gin from "../../public/skillsIcons/Gin.png";
+import Docker from "../../public/skillsIcons/Docker.svg";
+import Git from "../../public/skillsIcons/Git.svg";
+import GitHub from "../../public/profIcons/Github-Dark.svg";
+import Varcel from "../../public/skillsIcons/Vercel-Dark.svg";
+import Vite from "../../public/skillsIcons/Vite-Dark.svg";
+import Node from "../../public/skillsIcons/NodeJS-Dark.svg";
+
 import SkillIcon from "./SkillIcon";
 
 const SkillIcons = () => {
@@ -75,7 +84,35 @@ const SkillIcons = () => {
           </SkillIcon>
         </div>
         <div className="m-2">Database</div>
+        <div className="flex">
+          <SkillIcon name={PostgreSQL} description="PostgreSQL">
+            PostgreSQL
+          </SkillIcon>
+          <SkillIcon name={MySQL} description="MySQL">
+            MySQL
+          </SkillIcon>
+        </div>
         <div className="m-2">Others</div>
+        <div className="flex">
+          <SkillIcon name={Docker} description="Docker">
+            Docker
+          </SkillIcon>
+          <SkillIcon name={Git} description="Git">
+            Git
+          </SkillIcon>
+          <SkillIcon name={GitHub} description="GitHub">
+            GitHub
+          </SkillIcon>
+          <SkillIcon name={Varcel} description="Varcel">
+            Varcel
+          </SkillIcon>
+          <SkillIcon name={Vite} description="Vite">
+            Vite
+          </SkillIcon>
+          <SkillIcon name={Node} description="Node">
+            Node
+          </SkillIcon>
+        </div>
       </div>
     </div>
   );
