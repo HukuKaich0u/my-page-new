@@ -9,11 +9,7 @@ import React from "../../public/skillsIcons/React-Dark.svg";
 import Next from "../../public/skillsIcons/NextJS-Dark.svg";
 import Express from "../../public/skillsIcons/ExpressJS-Dark.svg";
 import Django from "../../public/skillsIcons/Django.svg";
-import Flask from "../../public/skillsIcons/Flask-Dark.svg";
-import FastAPI from "../../public/skillsIcons/FastAPI.svg";
 import PostgreSQL from "../../public/skillsIcons/PostgreSQL-Dark.svg";
-import MySQL from "../../public/skillsIcons/MySQL-Dark.svg";
-import Echo from "../../public/skillsIcons/Echo-New.png";
 import Gin from "../../public/skillsIcons/Gin.png";
 import Docker from "../../public/skillsIcons/Docker.svg";
 import Git from "../../public/skillsIcons/Git.svg";
@@ -69,12 +65,6 @@ const SkillIcons = () => {
           </SkillIcon>
           <SkillIcon name={Django} description="Django">
             Django
-          </SkillIcon>
-          <SkillIcon name={Flask} description="Flask">
-            Flask
-          </SkillIcon>
-          <SkillIcon name={FastAPI} description="FastAPI">
-            FastAPI
           </SkillIcon>
           <SkillIcon name={Echo} description="Echo">
             Echo
