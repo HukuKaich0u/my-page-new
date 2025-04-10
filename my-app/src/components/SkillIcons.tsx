@@ -8,7 +8,6 @@ import TailwindCSS from "../../public/skillsIcons/TailwindCSS-Dark.svg";
 import React from "../../public/skillsIcons/React-Dark.svg";
 import Next from "../../public/skillsIcons/NextJS-Dark.svg";
 import Express from "../../public/skillsIcons/ExpressJS-Dark.svg";
-import Django from "../../public/skillsIcons/Django.svg";
 import PostgreSQL from "../../public/skillsIcons/PostgreSQL-Dark.svg";
 import Gin from "../../public/skillsIcons/Gin.png";
 import Docker from "../../public/skillsIcons/Docker.svg";
@@ -62,9 +61,6 @@ const SkillIcons = () => {
         <div className="flex">
           <SkillIcon name={Express} description="Express">
             Express
-          </SkillIcon>
-          <SkillIcon name={Django} description="Django">
-            Django
           </SkillIcon>
           <SkillIcon name={Gin} description="Gin">
             Gin

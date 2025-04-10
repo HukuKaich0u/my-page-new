@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./RotatePictures.module.css";
-// import Training from "../../public/profIcons/training.jpg";
+import Training from "../../public/profIcons/training.jpg";
 import Ski1 from "../../public/profIcons/ski1.jpeg";
 import Ski2 from "../../public/profIcons/ski2.jpg";
 import Coding from "../../public/profIcons/coding.jpg";
@@ -12,6 +12,13 @@ const HomeRotation = () => {
     <div className="flex items-center justify-center h-[300px]">
       <div className={styles.wrap}>
         <ul className={styles.slideshow}>
+          <Image
+            src={Training}
+            alt="fromUnsplash"
+            width={200}
+            height={200}
+            className={styles.content}
+          />
           <Image
             src={Dinner}
             alt="fromUnsplash"
