@@ -66,9 +66,6 @@ const SkillIcons = () => {
           <SkillIcon name={Django} description="Django">
             Django
           </SkillIcon>
-          <SkillIcon name={Echo} description="Echo">
-            Echo
-          </SkillIcon>
           <SkillIcon name={Gin} description="Gin">
             Gin
           </SkillIcon>
