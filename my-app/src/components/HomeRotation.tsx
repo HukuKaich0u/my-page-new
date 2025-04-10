@@ -20,6 +20,13 @@ const HomeRotation = () => {
             className={styles.content}
           />
           <Image
+            src={Dinner}
+            alt="fromUnsplash"
+            width={200}
+            height={200}
+            className={styles.content}
+          />
+          <Image
             src={Ski1}
             alt="fromUnsplash"
             width={200}
@@ -42,13 +49,6 @@ const HomeRotation = () => {
           />
           <Image
             src={SportsDay}
-            alt="fromUnsplash"
-            width={200}
-            height={200}
-            className={styles.content}
-          />
-          <Image
-            src={Dinner}
             alt="fromUnsplash"
             width={200}
             height={200}
