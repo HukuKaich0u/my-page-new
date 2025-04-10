@@ -75,9 +75,6 @@ const SkillIcons = () => {
           <SkillIcon name={PostgreSQL} description="PostgreSQL">
             PostgreSQL
           </SkillIcon>
-          <SkillIcon name={MySQL} description="MySQL">
-            MySQL
-          </SkillIcon>
         </div>
         <div className="m-2">Others</div>
         <div className="flex">
