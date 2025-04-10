@@ -10,7 +10,7 @@ const Header = () => {
     <div>
       <p className="text-center my-3  p-3 text-[14px] text-white">
         Here is my profile. I'm glad if you know about me!! <br />
-        Last updated: march 2025
+        Last updated: April 2025
       </p>
       <div className="flex justify-center items-center mb-2">
         <Link href="/about">
