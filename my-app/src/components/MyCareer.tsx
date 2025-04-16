@@ -14,6 +14,10 @@ const MyCareer = () => {
           </p>
           <div className="flex m-1">
             <p className="mr-1">⚫︎</p>
+            <p>2017/4 - 2020/3 足立区立第十三中学校</p>
+          </div>
+          <div className="flex m-1">
+            <p className="mr-1">⚫︎</p>
             <p>2020/4 - 2023/3 東京都立日比谷高等学校 / 硬式野球部</p>
           </div>
           <div className="flex m-1">
