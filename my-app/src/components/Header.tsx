@@ -9,7 +9,8 @@ const Header = () => {
   return (
     <div>
       <p className="text-center my-3  p-3 text-[14px] text-white">
-        Here is my profile. I'm glad if you know about me!! <br />
+        This is my profile. I’d be happy if you got to know more about me!{" "}
+        <br />
         Last updated: April 2025
       </p>
       <div className="flex justify-center items-center mb-2">
