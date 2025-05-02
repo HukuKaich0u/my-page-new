@@ -5,7 +5,8 @@ import React from "react";
 
 export const metadata: Metadata = {
   title: "Koki Aoyagi",
-  description: "Koki Aoyagi - my page -",
+  description:
+    "Hi there! I'm Koki Aoyagi, sophomore in a University at Tokyo, majoring Computer Science.",
   icons: "/favicon.ico",
   viewport: "width=device-width, initial-scale=1",
 };
