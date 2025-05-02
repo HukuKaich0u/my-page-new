@@ -2,6 +2,7 @@ import JavaScript from "../../public/skillsIcons/JavaScript.svg";
 import TypeScript from "../../public/skillsIcons/TypeScript.svg";
 import Python from "../../public/skillsIcons/Python-Dark.svg";
 import Go from "../../public/skillsIcons/GoLang.svg";
+import Cpp from "../../public/skillsIcons/CPP.svg";
 import HTML from "../../public/skillsIcons/HTML.svg";
 import CSS from "../../public/skillsIcons/CSS.svg";
 import TailwindCSS from "../../public/skillsIcons/TailwindCSS-Dark.svg";
@@ -9,7 +10,7 @@ import React from "../../public/skillsIcons/React-Dark.svg";
 import Next from "../../public/skillsIcons/NextJS-Dark.svg";
 import Express from "../../public/skillsIcons/ExpressJS-Dark.svg";
 import PostgreSQL from "../../public/skillsIcons/PostgreSQL-Dark.svg";
-import Gin from "../../public/skillsIcons/Gin.png";
+import Gin from "../../public/skillsIcons/Gin.webp";
 import Docker from "../../public/skillsIcons/Docker.svg";
 import Git from "../../public/skillsIcons/Git.svg";
 import GitHub from "../../public/profIcons/Github-Dark.svg";
@@ -37,6 +38,9 @@ const SkillIcons = () => {
           </SkillIcon>
           <SkillIcon name={Go} description="Go">
             Go
+          </SkillIcon>
+          <SkillIcon name={Cpp} description="Cpp">
+            Cpp
           </SkillIcon>
         </div>
         <div className="m-2">Front-End</div>
