@@ -10,7 +10,7 @@
   }
   .slideshow {
     display: flex;
-    animation: loop-slide 20s infinite linear 1s both alternate;
+    animation: loop-slide 15s infinite linear 1s both alternate;
   }
   .slideshow:hover {
     animation-play-state: paused;
